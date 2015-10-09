@@ -1,4 +1,4 @@
-# siniida/gennai-build
+# [siniida/jdk-maven](https://hub.docker.com/r/siniida/jdk-maven/)
 
 for [gennai](https://github.com/TryGennai/gennai).
 
@@ -27,3 +27,7 @@ for [gennai](https://github.com/TryGennai/gennai).
 
     [root@CONTAINERID /]# alternatives --set java  /usr/java/jdk1.8.0_60/jre/bin/java
     [root@CONTAINERID /]# alternatives --set javac /usr/java/jdk1.8.0_60/bin/javac
+
+----
+
+DockerHub: [siniida/jdk-maven](https://hub.docker.com/r/siniida/jdk-maven/)
