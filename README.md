@@ -4,7 +4,7 @@ for [gennai](https://github.com/TryGennai/gennai).
 
 ## Environment
 
-* CentOS 6
+* CentOS 7
 * Oracle JDK
     * 8u65 (default)
     * 7u80

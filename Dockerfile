@@ -1,4 +1,4 @@
-FROM centos:6
+FROM centos:7
 MAINTAINER siniida <sinpukyu@gmail.com>
 
 RUN yum update -y
