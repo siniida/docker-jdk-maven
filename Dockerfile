@@ -17,7 +17,7 @@ RUN curl http://ftp.meisei-u.ac.jp/mirror/apache/dist/maven/maven-3/3.3.3/binari
 RUN ln -s /opt/apache-maven-3.3.3/bin/mvn /usr/bin/mvn
 
 # JST
-RUN \cp --force /usr/share/zoneinfo/Japan /etc/localtime
+RUN unlink /etc/localtime && ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
 # alternatives
 RUN alternatives --install /usr/bin/java java /usr/java/jdk1.7.0_80/jre/bin/java 17080 \
