@@ -6,7 +6,7 @@ for [gennai](https://github.com/TryGennai/gennai).
 
 * CentOS 7
 * Oracle JDK
-    * 8u65 (default)
+    * 8u77 (default)
     * 7u80
 * Maven 3.3.3
 
@@ -25,8 +25,8 @@ for [gennai](https://github.com/TryGennai/gennai).
 
 ### switch JDK7 -> JDK8
 
-    [root@CONTAINERID /]# alternatives --set java  /usr/java/jdk1.8.0_65/jre/bin/java
-    [root@CONTAINERID /]# alternatives --set javac /usr/java/jdk1.8.0_65/bin/javac
+    [root@CONTAINERID /]# alternatives --set java  /usr/java/jdk1.8.0_77/jre/bin/java
+    [root@CONTAINERID /]# alternatives --set javac /usr/java/jdk1.8.0_77/bin/javac
 
 ----
 
